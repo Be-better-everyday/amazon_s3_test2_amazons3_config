@@ -1,0 +1,20 @@
+amazonProperties:
+  endpointUrl: https://s3.ap-southeast-1.amazonaws.com
+  accessKey: ${AWS_ASSESS_KEY}
+  secretKey: ${AWS_SECRET_KEY}
+  bucketName: ${AWS_BUCKET_NAME}
+
+#  Source: https://dev.to/aws-builders/integrating-your-spring-boot-project-with-amazon-s3-3e3
+access:
+  key:
+    id: ${AWS_ASSESS_KEY}
+    secret: ${AWS_SECRET_KEY}
+s3:
+  region:
+    name: ap-southeast-1
+  bucket:
+    name: ${AWS_BUCKET_NAME}
+server:
+  port: 8081
+# end config source "dev.to"
+
